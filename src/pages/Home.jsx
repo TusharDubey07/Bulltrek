@@ -1,6 +1,21 @@
 import React from "react";
 import Header from "../components/Header";
 
+const RenderImages = ({ imageUrl, count }) => {
+  return (
+    <div className="flex gap-4">
+      {Array.from({ length: count }).map((_, index) => (
+        <img 
+          key={index} 
+          src={imageUrl} 
+          alt={`Rendered ${index}`} 
+          className="w-[121px] h-[41px] object-contain mr-20"
+        />
+      ))}
+    </div>
+  );
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
@@ -31,8 +46,8 @@ export default function Home() {
 
           {/* Right Column */}
           <div className="relative">
-            <div className="absolute top-0 right-0 w-4/5 h-4/5 bg-[#FF6B00] rounded-full opacity-20 blur-3xl" />
-            <div className="relative">
+            <div className="absolute top-0 right-0 w-4/5 h-4/5  rounded-full opacity-20 blur-3xl "  />
+            <div className="relative bg-gradient-to-br from-[#F59120] to-[#EDDDCA] rounded-full	w-[800px]">
               <img
                 src="/src\assets\Wood-Hand (1).png"
                 alt="Trading app interface"
@@ -40,7 +55,19 @@ export default function Home() {
               />
 
               {/* Chat Overlay */}
-              
+              <div className="absolute top-1/4 right-0 bg-white rounded-lg shadow-lg p-4 w-72">
+              <div className="flex items-center gap-3">
+                  <div className="bg-[#FF6B00]/10 p-2 rounded-lg">
+                    <div className="w-8 h-8 bg-[#FF6B00] rounded-lg" />
+                  </div>
+                  <div>
+                    <p className="font-medium">Multiple Strategy Bots</p>
+                    <p className="text-sm text-gray-500">
+                      Customize as you wish
+                    </p>
+                  </div>
+                </div>
+              </div>
 
               {/* Strategy Bots Card */}
               <div className="absolute bottom-1/3 -left-8 bg-white rounded-lg shadow-lg p-4">
@@ -59,6 +86,12 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="mt-32 ml-10">
+              <RenderImages 
+        imageUrl="/src/assets/image 1.png" 
+        count={7} // Replace 5 with the number of times you want to render the image
+      />
+              </div>
       </div>
     </div>
   );
