@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { ChevronDown } from 'lucide-react';
+
 
 const Header = () => {
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
   return (
     <nav className="container mx-auto flex items-center justify-between p-4">
       <div className="flex items-center gap-2">
@@ -27,18 +31,47 @@ const Header = () => {
         >
           Home
         </NavLink>
-        <NavLink
-          to="/strategy"
-          className={({ isActive }) =>
-            `px-4 py-2 rounded-full text-sm font-medium ${
-              isActive
-                ? "bg-[#FFDDB7] text-[#F59120]"
-                : "hover:text-[#F59120]"
-            }`
-          }
-        >
-          Strategy
-        </NavLink>
+        <div className="relative">
+          <button
+            className="flex items-center gap-1 px-4 py-2 rounded-full text-sm font-medium hover:text-[#F59120]"
+            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+          >
+            Strategy
+            <ChevronDown className="w-4 h-4" />
+          </button>
+
+          {/* Dropdown Menu */}
+          {isDropdownOpen && (
+            <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50">
+              <NavLink
+                to="/broker"
+                className={({ isActive }) =>
+                  `block px-4 py-2 text-sm ${
+                    isActive
+                      ? "bg-[#FFDDB7] text-[#F59120]"
+                      : "hover:bg-gray-50 hover:text-[#F59120]"
+                  }`
+                }
+                onClick={() => setIsDropdownOpen(false)}
+              >
+                Broker
+              </NavLink>
+              <NavLink
+                to="/terms"
+                className={({ isActive }) =>
+                  `block px-4 py-2 text-sm ${
+                    isActive
+                      ? "bg-[#FFDDB7] text-[#F59120]"
+                      : "hover:bg-gray-50 hover:text-[#F59120]"
+                  }`
+                }
+                onClick={() => setIsDropdownOpen(false)}
+              >
+                Terms & Conditions
+              </NavLink>
+            </div>
+          )}
+        </div>
         <NavLink
           to="/about"
           className={({ isActive }) =>
