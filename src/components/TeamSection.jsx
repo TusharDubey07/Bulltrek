@@ -6,17 +6,17 @@ const TeamSection = () => {
     { 
       name: "Mr. Lorem Dolor", 
       role: "Lorem Specialist",
-      image: "/src/assets/Team1.png" 
+      image: "/images/Team1.png" 
     },
     { 
       name: "Ms. Name Name", 
       role: "Lorem Specialist",
-      image: "/src/assets/Team2.png" 
+      image: "/images/Team2.png" 
     },
     { 
       name: "Mr. Lorem Dolor", 
       role: "Lorem Specialist",
-      image: "/src/assets/Team3.png" 
+      image: "/images/Team3.png" 
     },
   ];
 
@@ -26,21 +26,21 @@ const TeamSection = () => {
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisil dolore magna aliqua. Ut enim ad",
       author: "Rahul David",
       role: "Consultant",
-      avatar: "/src/assets/Testimonial.png"
+      avatar: "/images/Testimonial.png"
     },
     {
       id: 2,
       text: "Second testimonial text here...",
       author: "Jane Smith",
       role: "Manager",
-      avatar: "/src/assets/Testimonial.png"
+      avatar: "/images/Testimonial.png"
     },
     {
       id: 3,
       text: "Third testimonial text here...",
       author: "John Doe",
       role: "Director",
-      avatar: "/src/assets/Testimonial.png"
+      avatar: "/images/Testimonial.png"
     }
   ];
 

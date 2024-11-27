@@ -9,7 +9,7 @@ const ContactPage = () => {  // Renamed from Contact to ContactPage
         We've got a whole team dedicated to support you
       </h1>
       <img
-            src="/src\assets\Chat dialog with support service.png"
+            src="/images/Chat dialog with support service.png"
             alt="Support illustration"
             className="mx-auto mb-8 w-[300px] h-[300px]"
           />

@@ -27,7 +27,7 @@ const GetToKnow = () => {
         </div>
         <div>
           <img
-            src="/src\assets\Image.png"
+            src="/images/Image.png"
             alt="Laptop showcase"
             className="rounded-lg w-full h-auto"
           />

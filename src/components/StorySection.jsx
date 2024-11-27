@@ -6,7 +6,7 @@ const StorySection = () => {
       <h2 className="text-3xl font-bold text-center mb-12">Story of Builtrek</h2>
       <div className="grid md:grid-cols-2 gap-12 items-center px-28">
         <img
-          src="/src\assets\storysection.png"
+          src="/images/storysection.png"
           alt="Office interior"
           className="rounded-lg w-full h-auto"
         />

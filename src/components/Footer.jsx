@@ -118,14 +118,14 @@ const Footer = () => {
       <div className="flex space-x-4">
         <a href="#">
           <img
-            src="/src/assets/appstore.png"
+            src="/images/appstore.png"
             alt="Download on the App Store"
             className="h-10"
           />
         </a>
         <a href="#">
           <img
-            src="/src/assets/googleplay.png"
+            src="/images/googleplay.png"
             alt="Get it on Google Play"
             className="h-10"
           />
@@ -135,7 +135,7 @@ const Footer = () => {
     <div>
       <p className="text-center mb-2">Or Scan QR below</p>
       <img
-        src="/src/assets/QR Code.png"
+        src="/images/QR Code.png"
         alt="QR Code"
         className="bg-white p-2 w-[100px] h-[100px]"
       />

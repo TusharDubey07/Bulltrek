@@ -49,7 +49,7 @@ export default function Home() {
             <div className="absolute top-0 right-0 w-4/5 h-4/5  rounded-full opacity-20 blur-3xl "  />
             <div className="relative bg-gradient-to-br from-[#F59120] to-[#EDDDCA] rounded-full	w-[800px]">
               <img
-                src="/src\assets\Wood-Hand (1).png"
+                src="/images/Wood-Hand (1).png"
                 alt="Trading app interface"
                 className="mx-auto w-[400px] h-[800px]"
               />
@@ -59,7 +59,7 @@ export default function Home() {
               <div className="flex items-center gap-3">
                   <div className="bg-[#FF6B00]/10 p-2 rounded-lg">
                   <img
-                src="/src/assets/Message Bot.png"
+                src="/images/Message Bot.png"
                 alt="Trading app interface"
                 className="mx-auto w-[30px] h-[30px]"
               />
@@ -78,7 +78,7 @@ export default function Home() {
                 <div className="flex items-center gap-3">
                   <div className="bg-[#FF6B00]/10 p-2 rounded-lg">
                   <img
-                src="/src/assets/Message Bot.png"
+                src="/images/Message Bot.png"
                 alt="Trading app interface"
                 className="mx-auto w-[30px] h-[30px]"
               />                  </div>
@@ -95,7 +95,7 @@ export default function Home() {
         </div>
         <div className="mt-32 ml-10">
               <RenderImages 
-        imageUrl="/src/assets/image 1.png" 
+        imageUrl="/images/image 1.png" 
         count={7} // Replace 5 with the number of times you want to render the image
       />
               </div>

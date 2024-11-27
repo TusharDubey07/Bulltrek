@@ -14,7 +14,7 @@ const CTABanner = () => {
           </button>
         </div>
         <img
-          src="/src\assets\CTA.png"
+          src="/images/CTA.png"
           alt="CTA illustration"
           className="w-[250px] h-[250px]"
         />

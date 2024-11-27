@@ -11,7 +11,7 @@ const Header = () => {
       <div className="flex items-center gap-2">
         <NavLink to="/">
           <img
-            src="/src/assets/Bulltrek Logo 1.png"
+            src="/images/Bulltrek Logo 1.png"
             alt="logo"
             className="mx-auto w-[100px] h-[40px]"
           />

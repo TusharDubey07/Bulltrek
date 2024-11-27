@@ -8,7 +8,7 @@ export default function AlgoTrading() {
           <div className="absolute left-1/2 top-2/3 -translate-x-1/2 -translate-y-1/2 hidden lg:block">
             <div className="relative w-[400px] h-[300px]">
             <img
-                src="/src/assets/laptop.png"
+                src="/images/laptop.png"
                 alt="Trading app interface"
                 className="mx-auto w-[200px] h-[200px]"
               />

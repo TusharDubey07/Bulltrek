@@ -60,7 +60,7 @@ export default function Strategies() {
           <div className="w-auto">
             <div className="bg-[#FFE4CC] p-4 rounded-3xl px-4">
             <img
-                src="/src/assets/Strategy 9.png"
+                src="/images/Strategy 9.png"
                 alt="Trading app interface"
                 className="mx-auto w-[267.16px] h-[598.16px]"
               />

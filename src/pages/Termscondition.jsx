@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';  // Changed from Next.js Link
 
 const Termscondition = () => {
   const brokerLinks = [
-    { name: "Binance", image: "/src/assets/binance.png" },
-    { name: "Coinbased Advance", image: "/src/assets/coinbased.png" },
-    { name: "Bybit Trading", image: "/src/assets/bybit.png" },
-    { name: "Karen", image: "/src/assets/karen.png" },
-    { name: "Bitfinex", image: "/src/assets/bitfinex.png" },
+    { name: "Binance", image: "/images/binance.png" },
+    { name: "Coinbased Advance", image: "/images/coinbased.png" },
+    { name: "Bybit Trading", image: "/images/bybit.png" },
+    { name: "Karen", image: "/images/karen.png" },
+    { name: "Bitfinex", image: "/images/bitfinex.png" },
   ];
 
   return (
