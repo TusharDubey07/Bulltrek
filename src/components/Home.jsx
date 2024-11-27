@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "./Header";
 
 const RenderImages = ({ imageUrl, count }) => {
   return (
@@ -58,7 +58,11 @@ export default function Home() {
               <div className="absolute top-1/4 right-0 bg-white rounded-lg shadow-lg p-4 w-72">
               <div className="flex items-center gap-3">
                   <div className="bg-[#FF6B00]/10 p-2 rounded-lg">
-                    <div className="w-8 h-8 bg-[#FF6B00] rounded-lg" />
+                  <img
+                src="/src/assets/Message Bot.png"
+                alt="Trading app interface"
+                className="mx-auto w-[30px] h-[30px]"
+              />
                   </div>
                   <div>
                     <p className="font-medium">Multiple Strategy Bots</p>
@@ -73,8 +77,11 @@ export default function Home() {
               <div className="absolute bottom-1/3 -left-8 bg-white rounded-lg shadow-lg p-4">
                 <div className="flex items-center gap-3">
                   <div className="bg-[#FF6B00]/10 p-2 rounded-lg">
-                    <div className="w-8 h-8 bg-[#FF6B00] rounded-lg" />
-                  </div>
+                  <img
+                src="/src/assets/Message Bot.png"
+                alt="Trading app interface"
+                className="mx-auto w-[30px] h-[30px]"
+              />                  </div>
                   <div>
                     <p className="font-medium">Multiple Strategy Bots</p>
                     <p className="text-sm text-gray-500">
