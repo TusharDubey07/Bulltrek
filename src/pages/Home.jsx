@@ -40,32 +40,7 @@ export default function Home() {
               />
 
               {/* Chat Overlay */}
-              <div className="absolute top-1/4 right-0 bg-white rounded-lg shadow-lg p-4 w-72">
-                <div className="flex justify-between items-center mb-4">
-                  <span>Live Chat</span>
-                  <span className="text-gray-400 cursor-pointer">×</span>
-                </div>
-                <div className="space-y-4">
-                  <div className="text-sm text-gray-600">
-                    <p>Hey There!</p>
-                    <p className="mt-2">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                      magna
-                    </p>
-                  </div>
-                  <div className="flex items-center gap-2 border rounded-full p-2">
-                    <input
-                      type="text"
-                      placeholder="Type Here"
-                      className="flex-1 outline-none text-sm"
-                    />
-                    <button className="rounded-full bg-[#FF6B00] text-white hover:bg-[#FF6B00]/90 px-4 py-2">
-                      →
-                    </button>
-                  </div>
-                </div>
-              </div>
+              
 
               {/* Strategy Bots Card */}
               <div className="absolute bottom-1/3 -left-8 bg-white rounded-lg shadow-lg p-4">

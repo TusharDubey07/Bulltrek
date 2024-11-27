@@ -4,10 +4,11 @@ const Header = () => {
   return (
     <nav className="container mx-auto flex items-center justify-between p-4">
       <div className="flex items-center gap-2">
-        <span className="text-2xl font-bold">
-          <span className="text-[#61001D]">Built</span>
-          <span className="text-[#FF6B00]">trek</span>
-        </span>
+      <img
+                src="/src\assets\Bulltrek Logo 1.png"
+                alt="logo"
+                className="mx-auto w-[100px] h-[40px]"
+              />
       </div>
 
       <div className="hidden md:flex items-center gap-8">
