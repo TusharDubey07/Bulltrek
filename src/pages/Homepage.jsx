@@ -11,7 +11,7 @@ import TestimonialsCarousel from '../components/TestimonialsCarousel'
 
 export default function Homepage() {
   return (
-    <div className="container mx-auto x">
+    <div className="container mx-auto ">
     <Home />
         <Features />
         <Strategies />
