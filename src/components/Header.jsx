@@ -13,7 +13,7 @@ const Header = () => {
           <img
             src="/images/Bulltrek Logo 1.png"
             alt="logo"
-            className="mx-auto w-[100px] h-[40px]"
+            className="mx-auto w-[137px] h-[44px]"
           />
         </NavLink>
       </div>
@@ -98,7 +98,7 @@ const Header = () => {
         </NavLink>
       </div>
 
-      <button className="bg-[#61001D] text-white hover:bg-[#61001D]/90 px-4 py-2 rounded">
+      <button className="bg-[#61001D] text-white hover:bg-[#61001D]/90 px-4 py-2 rounded-full">
         Signup
       </button>
     </nav>

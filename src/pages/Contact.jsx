@@ -106,15 +106,15 @@ const ContactPage = () => {  // Renamed from Contact to ContactPage
             </h2>
             <p className="text-gray-600 mb-4">Speak to our team via live chat</p>
             <div className="space-y-3">
-              <button className="w-full border rounded-md p-2 flex items-center gap-2 hover:bg-gray-50">
+              <button className="w-full border-none rounded-md p-2 flex items-center gap-2 hover:bg-gray-50">
                 <MessageCircle className="h-4 w-4" />
                 Start Live chat
               </button>
-              <button className="w-full border rounded-md p-2 flex items-center gap-2 hover:bg-gray-50">
+              <button className="w-full border-none rounded-md p-2 flex items-center gap-2 hover:bg-gray-50">
                 <Mail className="h-4 w-4" />
                 Shoot us an Email
               </button>
-              <button className="w-full border rounded-md p-2 flex items-center gap-2 hover:bg-gray-50">
+              <button className="w-full border-none rounded-md p-2 flex items-center gap-2 hover:bg-gray-50">
                 <MessageSquare className="h-4 w-4" />
                 Message on WhatsApp
               </button>

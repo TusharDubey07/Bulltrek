@@ -63,7 +63,7 @@ export default function RiskManagement() {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 bg-white">
-      <div className="w-full max-w-4xl bg-black text-white rounded-lg shadow-xl p-6">
+      <div className="w-full max-w-4xl bg-black text-white rounded-lg shadow-xl p-20">
         <div className="text-center mb-8">
           <h2 className="text-2xl font-normal">Risk Management</h2>
         </div>

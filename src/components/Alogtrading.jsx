@@ -17,7 +17,7 @@ export default function AlgoTrading() {
   
           {/* Advantages Column */}
           <div className="space-y-12 mr-20">
-            <h2 className="text-3xl font-medium text-[#E69849] text-center mb-8">Advantages</h2>
+            <h2 className="text-3xl font-medium text-[#F59120] text-center mb-8">Advantages</h2>
             
             <div className="flex items-center gap-6">
               <div className="flex-1 text-right">
@@ -25,8 +25,11 @@ export default function AlgoTrading() {
                 <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. cidunt justo interdum. Asuscipit elit gravNu</p>
               </div>
               <div className="w-16 h-16 rounded-full bg-pink-100 flex items-center justify-center">
-                <div className="w-8 h-8 text-[#E69849]">₿</div>
-              </div>
+              <img
+                src="/images/Crypto Trading Spot.png"
+                alt="Trading app interface"
+                className="mx-auto w-[50px] h-[50px]"
+              />              </div>
             </div>
   <div className="mr-10">
             <div className="flex items-center gap-6 ">
@@ -35,8 +38,11 @@ export default function AlgoTrading() {
                 <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. cidunt justo interdum. Asuscipit elit gravNu</p>
               </div>
               <div className="w-16 h-16 rounded-full bg-pink-100 flex items-center justify-center">
-                <div className="w-8 h-8">📊</div>
-              </div>
+              <img
+                src="/images/Candlestick Chart.png"
+                alt="Trading app interface"
+                className="mx-auto w-[50px] h-[50px]"
+              />                </div>
             </div>
   
             <div className="flex items-center gap-6 mt-4">
@@ -45,8 +51,11 @@ export default function AlgoTrading() {
                 <p className="text-gray-600">Using high-quality, Organic certified Cow based dairy products to ensure rich flavor and nutritional value.</p>
               </div>
               <div className="w-16 h-16 rounded-full bg-pink-100 flex items-center justify-center">
-                <div className="w-8 h-8">📈</div>
-              </div>
+              <img
+                src="/images/Neutral Trading-2.png"
+                alt="Trading app interface"
+                className="mx-auto w-[50px] h-[50px]"
+              />                </div>
             </div>
             </div>
             <div className="flex items-center gap-6">
@@ -55,19 +64,25 @@ export default function AlgoTrading() {
                 <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. cidunt justo interdum. Asuscipit elit gravNu</p>
               </div>
               <div className="w-16 h-16 rounded-full bg-pink-100 flex items-center justify-center">
-                <div className="w-8 h-8">💹</div>
-              </div>
+              <img
+                src="/images/Crypto Trading Margin.png"
+                alt="Trading app interface"
+                className="mx-auto w-[50px] h-[50px]"
+              />               </div>
             </div>
           </div>
   
           {/* Disadvantages Column */}
           <div className="space-y-12 ml-20">
-            <h2 className="text-3xl font-medium text-[#E69849] text-center mb-8">Disadvantages</h2>
+            <h2 className="text-3xl font-medium text-[#F59120] text-center mb-8">Disadvantages</h2>
             
             <div className="flex items-center gap-6">
               <div className="w-16 h-16 rounded-full bg-orange-100 flex items-center justify-center">
-                <div className="w-8 h-8">📊</div>
-              </div>
+              <img
+                src="/images/Candlestick Chart.png"
+                alt="Trading app interface"
+                className="mx-auto w-[50px] h-[50px]"
+              />                </div>
               <div className="flex-1">
                 <h3 className="text-xl font-medium mb-2">Lorem Ipsum</h3>
                 <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. cidunt justo interdum. Asuscipit elit gravNu</p>
@@ -77,8 +92,11 @@ export default function AlgoTrading() {
 
             <div className="flex items-center gap-6">
               <div className="w-16 h-16 rounded-full bg-orange-100 flex items-center justify-center">
-                <div className="w-8 h-8">📈</div>
-              </div>
+              <img
+                src="/images/Neutral Trading-2.png"
+                alt="Trading app interface"
+                className="mx-auto w-[50px] h-[50px]"
+              />                 </div>
               <div className="flex-1">
                 <h3 className="text-xl font-medium mb-2">Lorem Ipsum Dolor Dsitn Amdi</h3>
                 <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. cidunt justo interdum. Asuscipit elit gravNu</p>
@@ -87,8 +105,11 @@ export default function AlgoTrading() {
   
             <div className="flex items-center gap-6 mt-4">
               <div className="w-16 h-16 rounded-full bg-orange-100 flex items-center justify-center">
-                <div className="w-8 h-8">₿</div>
-              </div>
+              <img
+                src="/images/Crypto Trading Margin.png"
+                alt="Trading app interface"
+                className="mx-auto w-[50px] h-[50px]"
+              />                </div>
               <div className="flex-1">
                 <h3 className="text-xl font-medium mb-2">Lorem Ipsum Dolor Sit</h3>
                 <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. cidunt justo interdum. Asuscipit elit gravNu</p>
@@ -97,8 +118,11 @@ export default function AlgoTrading() {
   </div>
             <div className="flex items-center gap-6">
               <div className="w-16 h-16 rounded-full bg-orange-100 flex items-center justify-center">
-                <div className="w-8 h-8">📊</div>
-              </div>
+ <img
+                src="/images/Neutral Trading-2.png"
+                alt="Trading app interface"
+                className="mx-auto w-[50px] h-[50px]"
+              />                 </div>
               <div className="flex-1">
                 <h3 className="text-xl font-medium mb-2">Lorem Ipsum Dolor</h3>
                 <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. cidunt justo interdum. Asuscipit elit gravNu</p>

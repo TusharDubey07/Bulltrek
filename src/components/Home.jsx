@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
+import { IoMdClose } from "react-icons/io";
+
+import ChatInterface from "../components/ChatInterface"; // Import the modal component
 
 const RenderImages = ({ imageUrl, count }) => {
   return (
@@ -17,6 +20,12 @@ const RenderImages = ({ imageUrl, count }) => {
 };
 
 export default function Home() {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setModalOpen((prev) => !prev);
+  };
+
   return (
     <div className="min-h-screen bg-white">
 
@@ -28,18 +37,19 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
               Discover the
               <br />
-              <span className="text-[#FF6B00]">Future</span> of Trading
+              <span className="text-[#F59120]">Future</span> of Trading
             </h1>
 
             <div className="flex items-center gap-4 text-sm md:text-base text-gray-600">
+            <span className="w-2 h-2 rounded-full bg-[#F59120]" />
               <span>Precision</span>
-              <span className="w-2 h-2 rounded-full bg-gray-300" />
+              <span className="w-2 h-2 rounded-full bg-[#F59120]" />
               <span>Performance</span>
-              <span className="w-2 h-2 rounded-full bg-gray-300" />
+              <span className="w-2 h-2 rounded-full bg-[#F59120] " />
               <span>Profitability</span>
             </div>
 
-            <button className="bg-[#FF6B00] text-white hover:bg-[#FF6B00]/90 px-8 py-6 text-lg rounded">
+            <button className="bg-[#F59120] text-white hover:bg-[#FF6B00]/90 px-8  text-lg rounded-lg w-[256px] h-[47px]  self-center">
               Get Started
             </button>
           </div>
@@ -100,6 +110,31 @@ export default function Home() {
       />
               </div>
       </div>
+      <button
+        onClick={toggleModal}
+        className="fixed bottom-4 right-4 bg-[#F59120] text-white rounded-full p-4 shadow-lg hover:bg-[#FF6B00]/90"
+      >
+           <img
+                src="/images/Message.png"
+                alt="Trading app interface"
+                className="mx-auto w-[50px] h-[40px]"
+              />
+      </button>
+
+      {/* Modal */}
+      {isModalOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+          <div className="bg-white rounded-lg p-8 w-full max-w-md relative">
+            <button
+              onClick={toggleModal}
+              className="absolute top-2 right-2 text-gray-600 hover:text-gray-900 rounded-full"
+            > <IoMdClose size={'20px'} className="z-10" />
+
+            </button>
+            <ChatInterface  />
+          </div>
+        </div>
+      )}
     </div>
   );
 }

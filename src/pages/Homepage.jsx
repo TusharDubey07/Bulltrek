@@ -11,9 +11,8 @@ import TestimonialsCarousel from '../components/TestimonialsCarousel'
 
 export default function Homepage() {
   return (
-    <div className="overflow-x-hidden w-full">
-      <div className="relative">
-        <Home />
+    <div className="container mx-auto x">
+    <Home />
         <Features />
         <Strategies />
         <CTABanner />
@@ -23,6 +22,6 @@ export default function Homepage() {
         <DownloadFAQ/>
         <TestimonialsCarousel/>
       </div>
-    </div>
+    
   )
 }
